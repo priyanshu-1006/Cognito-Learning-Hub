@@ -1,5 +1,7 @@
 # API Gateway
 
+> Part of **Cognito Learning Hub** - Built for HackSprint at Axis College
+
 Central entry point for Cognito Learning Hub microservices architecture.
 
 ## Overview

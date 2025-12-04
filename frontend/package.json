@@ -1,7 +1,8 @@
 {
-  "name": "frontend",
+  "name": "cognito-learning-hub-frontend",
+  "description": "AI-powered educational quiz platform - Built for HackSprint at Axis College by Team OPTIMISTIC MUTANT CODERS",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

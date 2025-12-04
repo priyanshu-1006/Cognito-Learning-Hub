@@ -1,6 +1,8 @@
 # Cognito Learning Hub - Microservices Architecture
 
-This directory contains the microservices implementation of Cognito Learning Hub.
+> 🏆 **Built for HackSprint Hackathon at Axis College by Team OPTIMISTIC MUTANT CODERS**
+
+This directory contains the microservices implementation of Cognito Learning Hub - an AI-powered educational quiz platform.
 
 ## Architecture Overview
 
@@ -215,4 +217,8 @@ The original monolithic backend is preserved in `/backend/` for reference. Servi
 
 ## Support
 
-For questions or issues, contact the development team.
+For questions or issues, contact Team OPTIMISTIC MUTANT CODERS.
+
+---
+
+**Made with ❤️ for HackSprint at Axis College**

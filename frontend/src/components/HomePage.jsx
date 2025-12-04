@@ -149,7 +149,7 @@ export default function HomePage() {
     facebook:
       "🎯 Amazing discovery! Cognito Learning Hub uses AI to create educational quizzes instantly. Whether you're a teacher, student, or training professional, this tool is a game-changer. Check it out: https://cognito-learning.com",
     generic:
-      "Transform your teaching with Cognito Learning Hub! Create AI-powered quizzes in seconds, engage students with real-time multiplayer, and track progress with advanced analytics. Made with team OPTIMISTIC MUTANT CODERS: https://cognito-learning.com",
+      "Transform your teaching with Cognito Learning Hub! Create AI-powered quizzes in seconds, engage students with real-time multiplayer, and track progress with advanced analytics. Built for HackSprint at Axis College by team OPTIMISTIC MUTANT CODERS: https://cognito-learning.com",
   };
 
   const handleShare = (platform) => {
@@ -210,7 +210,7 @@ export default function HomePage() {
             Cognito Learning Hub is warming up its AI
           </h2>
           <p className="text-gray-600 dark:text-gray-300 flex items-center justify-center gap-2">
-            Built by OPTIMISTIC MUTANT CODERS with{" "}
+            Built for HackSprint at Axis College by OPTIMISTIC MUTANT CODERS with{" "}
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
           </p>
         </motion.div>

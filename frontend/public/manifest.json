@@ -1,7 +1,7 @@
 {
   "name": "Cognito Learning Hub",
   "short_name": "Cognito",
-  "description": "AI-Powered Quiz Platform - Instantly generate quizzes from topics or PDFs with real-time multiplayer, analytics, and 24/7 AI tutoring",
+  "description": "AI-Powered Quiz Platform - Built for HackSprint at Axis College. Instantly generate quizzes from topics or PDFs with real-time multiplayer, analytics, and 24/7 AI tutoring",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
