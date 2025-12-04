@@ -1,0 +1,140 @@
+/* Mobile Performance Optimizations */
+
+/* Reduce backdrop blur on mobile for better performance */
+@media (max-width: 768px) {
+  .backdrop-blur-3xl,
+  .backdrop-blur-2xl {
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+  }
+
+  .backdrop-blur-xl {
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+  }
+
+  /* Disable expensive animations on mobile */
+  .animate-pulse,
+  .animate-gradient,
+  .animate-spotlight {
+    animation: none !important;
+  }
+
+  /* Simplify shadows on mobile */
+  .shadow-2xl,
+  .shadow-xl {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+  }
+}
+
+/* Prevent iOS zoom on input focus */
+input,
+textarea,
+select {
+  font-size: 16px !important;
+}
+
+/* Better word wrapping for mobile */
+pre,
+code {
+  max-width: 100%;
+  overflow-x: auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 640px) {
+  pre {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+
+  code {
+    font-size: 0.875rem;
+  }
+}
+
+/* Ensure proper touch targets (minimum 44x44px) */
+@media (max-width: 768px) {
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Smooth scrolling for mobile */
+@media (max-width: 768px) {
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Fix iOS Safari bottom bar issues */
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Scroll indicators for horizontal overflow */
+.overflow-x-auto {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  height: 4px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 2px;
+}
+
+/* Mobile-first typography improvements */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+body {
+  overflow-x: hidden;
+}
+
+/* Better modal positioning on mobile */
+@media (max-width: 768px) {
+  [role="dialog"] {
+    max-height: 90vh;
+    margin: auto;
+  }
+}
+
+/* Improve tap highlight */
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: rgba(59, 130, 246, 0.1);
+  }
+}

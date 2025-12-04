@@ -1,0 +1,62 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+# Block access to sensitive areas (if any in the future)
+Disallow: /admin-dashboard
+Disallow: /moderator-dashboard
+Disallow: /admin-broadcast
+Disallow: /reports-dashboard
+
+# Allow access to static assets
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.json
+Allow: /*.mp4
+Allow: /*.mp3
+
+# Block crawling of API endpoints (backend is separate, but just in case)
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://quizwise-ai.live/sitemap.xml
+
+# Crawl-delay (optional - gives crawlers a brief pause between requests)
+# Crawl-delay: 1
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Block known bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
