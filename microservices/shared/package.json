@@ -1,0 +1,21 @@
+{
+  "name": "@cognito/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and middleware for Cognito microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["shared", "microservices", "utilities"],
+  "author": "Cognito Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.3.0",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "winston": "^3.11.0"
+  }
+}
